@@ -1,0 +1,53 @@
+baseURL = "https://amriunix.com/"
+relativeURLs = true
+languageCode = "en-us"
+title = "InfoSec Blog"
+disqusShortname = "amriunix"
+themesdir = "themes/"
+theme = "hugo-geo"
+paginate = 5
+
+# [taxonomies]
+# 	tag = "tags"
+# 	tutorial = "tutorials"
+
+[params]
+	showglobe = false
+
+	favicon = "favicon.ico"
+
+	analytics = "UA-51953135-2"
+
+	email = "oussama[at]amriunix.com"
+
+	profilepic = "img/amriunix.jpg"
+
+  header = "Hack to learn!"
+
+	title = "AMRIUNIX"
+
+	subtitle = "OUSSAMA AMRI"
+
+	# Social buttons for sidebar
+	# Each of these are optional
+	[[params.socialbuttons]]
+	faicon = "github"
+	url = "https://github.com/amriunix"
+	[[params.socialbuttons]]
+	faicon = "twitter"
+	url = "https://twitter.com/amriunix"
+	[[params.socialbuttons]]
+	faicon = "linkedin"
+	url = "https://www.linkedin.com/in/amriunix/"
+
+	[[params.navlinks]]
+	name = "Home"
+	url = ""
+
+	[[params.navlinks]]
+	name = "Posts"
+	url = "post/"
+
+	[[params.navlinks]]
+	name = "About"
+	url = "about"
