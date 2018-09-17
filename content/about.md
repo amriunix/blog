@@ -23,7 +23,7 @@ If you would like to contact me, feel free to do so at any of the usual places:
 ```shell
 $ certifications
 ```
-* OSCE #_in progress!_
+* Offensive Security Certified Expert (OSCE)
 * Offensive Security Certified Professional (OSCP)
 * Offensive Security Wireless Professional (OSWP)
 * Certified Ethical Hacker (CEH)
