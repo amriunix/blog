@@ -7,8 +7,9 @@ comments: false
 ```shell
 $ whoami
 ```
-My name is **Oussama Amri**, usually going by the alias "amriunix", born in 1994 and I’m currently a engineering student in Cyber Security at [TEK-UP University](http://tek-up.de/).
-
+My name is **Oussama Amri**, usually going by the alias "amriunix".<br>
+More than ten years of self made experience in Information Security of various environments.<br>
+Performed dozens of web application pentesting/hardening tasks (Black/White box), Source code auditing/hardening, network penetration testing, 802.11 penetration testing, binary exploitation and Familiar with multiple scripting languages along with arsenal of penetration testing tools.<br>
 ```shell
 $ contact
 ```
