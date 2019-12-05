@@ -21,7 +21,7 @@ highlight: true
 
 ![alt text](/img/memcached-enumeration/memchached-tcp-port.png "Memcached TCP Port")
 
-Memcached expose TCP port **11211** and bind it on localhost, however it's still possible to communicate with this port via SSRF or literary movement techniques.
+Memcached exposes TCP port **11211** and bind it to localhost, however it's still possible to communicate with this port via SSRF or literary movement techniques.
 
 ### Protocol
 Clients of memcached communicate with server through TCP connections. A simple raw commands can be performed to do various things with memcached.
@@ -31,7 +31,7 @@ Clients of memcached communicate with server through TCP connections. A simple r
 More Commands can be found [here.](https://github.com/memcached/memcached/blob/master/doc/protocol.txt)
 
 ### Memcached Extractor
-Now let's see how to extracts the slabs from a memcached instance and then finds the keys and values stored in those slabs.</br>
+Now let's see how to extract the slabs from a memcached instance and then find the keys and values stored in those slabs.</br>
 First, let's connect to the server using `netcat`
 
 > `nc 127.0.0.1 11211`
@@ -78,7 +78,7 @@ STAT total_malloced 2078904
 END
 ```
 
-If you notice in our example we have two different values **16** and **26**. We will using those values to fetch for the key's names associated with them.
+If you notice in our example we have two different values **16** and **26**. We will be using those values to fetch the key's names associated with them.
 
 > `stats cachedump 16 0`
 

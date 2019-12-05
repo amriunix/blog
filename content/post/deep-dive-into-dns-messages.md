@@ -9,7 +9,7 @@ comments: true
 highlight: true
 ---
 
-In this Post, I'd like to talk about the packet structure of DNS as well as how to implement it into python script to start ask and receive answers about domain resolution.
+In this Post, I'd like to talk about the packet structure of DNS as well as how to implement it into python script to start asking and receiving answers about domain resolution.
 
 <!--more-->
 
@@ -49,7 +49,7 @@ Note that a response for a single question may contain multiple answers, such as
 </br>
 **QR** : A one bit field that specifies whether this message is a query (0), or a response (1).
 </br>
-**OPCODE** : A four bit field that specifies kind of query in this message :
+**OPCODE** : A four bit field that specifies what kind of query in this message :
 
 * 0: Standard query
 * 1: Inverse query
@@ -62,7 +62,7 @@ Note that a response for a single question may contain multiple answers, such as
 </br>
 **RD** : Recursion Desired, 1 bit flag specifying if recursion is desired. If the DNS server we send our request to doesn’t know the answer to our query, it can recursively ask other DNS servers. We do wish recursion to be enabled, so we will set this to 1.
 </br>
-**RA** : Recursion Available, this be is set (1) or cleared (0) in a response, and denotes whether recursive query support is available in the name server.
+**RA** : Recursion Available, this will be is set (1) or cleared (0) in a response, and denotes whether recursive query support is available in the name server.
 </br>
 **Z** : Reserved for future use, You must set this field to 0.
 </br>
