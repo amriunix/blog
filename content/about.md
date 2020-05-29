@@ -24,6 +24,7 @@ If you would like to contact me, feel free to do so at any of the usual places:
 ```shell
 $ certifications
 ```
+* Offensive Security Web Expert (OSWE)
 * Offensive Security Certified Expert (OSCE)
 * Offensive Security Certified Professional (OSCP)
 * Offensive Security Wireless Professional (OSWP)
