@@ -18,7 +18,6 @@ If you would like to contact me, feel free to do so at any of the usual places:
 * [Twitter](https://twitter.com/amriunix)
 * [Keybase](https://keybase.io/amriunix)
 * [Github](https://github.com/amriunix)
-* [LinkedIn](https://www.linkedin.com/in/amriunix/)
 * [Email](mailto:oussama[at]amriunix.com)
 
 ```shell

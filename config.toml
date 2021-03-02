@@ -36,9 +36,9 @@ paginate = 5
 	[[params.socialbuttons]]
 	faicon = "twitter"
 	url = "https://twitter.com/amriunix"
-	[[params.socialbuttons]]
-	faicon = "linkedin"
-	url = "https://www.linkedin.com/in/amriunix/"
+#	[[params.socialbuttons]]
+#	faicon = "linkedin"
+#	url = "https://www.linkedin.com/in/amriunix/"
 
 	[[params.navlinks]]
 	name = "Home"
